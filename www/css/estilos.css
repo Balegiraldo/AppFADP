@@ -1,0 +1,52 @@
+body,html{
+	height: 100%;
+	background-color: gray;
+}
+
+header{
+	background: url("imagenes/img2.jpg") ;
+	background-size: cover;
+	padding: 5em 5em 5em 5em;
+}
+
+.centrar{ /*Crear para centrar todos los textos de app*/
+
+	text-align: center;
+}
+.contenido{
+	background: rgba(255,255,255,0.4);
+	padding: 2em;
+}
+
+.fondo{
+	background: url("imagenes/header.jpg") center center no-repeat; /*Posiciona en el centro x y */
+	background-size: cover;
+}
+
+.menu{
+	list-style: none;
+	display: flex; /*Menu horizontal*/
+	margin: 0 auto;
+	width: 60%;
+	justify-content: space-around;
+
+}
+
+.menu li a{
+	font-size: 1.5em;
+	color: pink;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.volver{
+	font-size: 1.5em;
+	color: pink;
+	text-decoration: none;
+	text-align: center;
+}
+
+.volver:hover{
+	color: purple;
+	background: pink;
+}
